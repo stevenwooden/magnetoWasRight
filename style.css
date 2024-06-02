@@ -1,0 +1,17 @@
+ul {
+    font-size: 30px;
+    
+    /* margin-left: 20%; */
+}
+li.a{
+    margin: 15%;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 2.5% ;
+    margin-top: 5%;
+    padding-bottom: 2.5%;
+}
+

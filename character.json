@@ -1,0 +1,50 @@
+{"character":[
+    {
+        "alias": "Magneto", 
+        "powers": "Ability to control all metal"
+    },
+    {
+        "alias": "Cyclops",
+        "powers": "Project Optic Beams from eyes" 
+    },
+    {
+        "alias": "Marvel Girl",
+        "powers": "Telekinetic and Telepathy" 
+    },
+    {
+        "alias": "Storm" ,
+        "powers": "Ability to control the weather" 
+    },
+    {
+        "alias": "Nightcrawler",
+        "powers":"Teleportation" 
+    },
+    {
+        "alias": "Wolverive",
+        "powers":"Superhuman healing and retractable metal claws" 
+    },
+    {
+        "alias": "Beast",
+        "powers":"Superhuman strength, durability, agility, reflexes, and speed" 
+    },
+    {
+        "alias": "Mystique",
+        "powers":"Shapeshifter" 
+    },
+    {
+        "alias": "Sabretooth",
+        "powers":"Superhuman healing factor, strength and sharp claws" 
+    },
+    {
+        "alias": "Jubilee"
+        ,"powers": "Create and shoot combustable fireworks from hands" 
+    },
+    {
+        "alias": "Gambit",
+        "powers": "Able to kinetically charge objects to explode by a touch"
+    },
+    {
+        "alias": "Rogue",
+        "powers": "Can absorb super powers, life force and memoryies with a touch" 
+    }
+]}
