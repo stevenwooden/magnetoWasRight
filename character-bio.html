@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
     <template id="character-template">
-        <div class="card">
-            <img src="..."  class="card-img-top" alt="...">
-            <div class="card-body">
+        <div class="card col m-3" style="width: 18rem;">
+            <img src="..."  class="card-img-top img-fluid h-100"  alt="...">
+            <div class="card-body text-center">
                 <h5  class="card-title"></h5>
                 <p  class="card-description"></p>
             </div>
-        </div>
+        </div>        
     </template>
     <head>
         <meta charset="utf-8">
@@ -51,9 +51,12 @@
                 </div>
 
             </nav>
-            <main>
-                <h2>Character Bio's</h2>
-                <div id="character-list"></div>
+            <main class="container">
+                <h1>Popular Characters</h1>
+                <p>Look at our list of the most popular characters through out the X-Men history.</p>
+                
+                <div id="character-list" class="row row-cols-6"></div>
+            
             </main>
         <div class="container">
             
@@ -76,6 +79,7 @@
 
                 template.querySelector('.card-title').innerText = `Alias: ${data.alias}`;
                 template.querySelector('.card-description').innerText = `Powers: ${data.powers}`;
+                template.querySelector('.card-img-top').src = data.image;
 
                 document.querySelector('#character-list').appendChild(template);
             }
