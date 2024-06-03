@@ -5,13 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Community for X-MEN and mutant lovers">
         <meta name="keywords" content="X-MEN, Magneto, mutant, Acolytes, social, community, shop, blog">
-        <meta name="autor" content="Steven Wooden">
+        <meta name="author" content="Steven Wooden">
         <title>Magneto Was Right!</title>
-        <style>
-        
-    
-
-
+        <style>      
+            .blog {
+                margin-top: 10%;
+            }
         </style>
         <link href="style.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -31,7 +30,7 @@
                                 <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="character-bio.html">Character Bio</a>
+                                <a class="nav-link " href="character-bio.html">Characters</a>
                             </li>
                             <li class="navbar-nav">
                                 <a class="nav-link " href="blog.html">Blog</a>
@@ -47,7 +46,27 @@
             </nav>
         
         <div class="container">
-            
+            <main>
+                <h1 style="font-size: 80px; margin-top: 5%;">Blog</h1>
+                <section class="blog video">
+                    <div id="video-section">
+                    <img src="images/x-men97.png" style="width: 100%;" alt="video">
+                    </div>
+                    <h4 class="caption" id="video-image"> Check out this trailer for X-MEN 97 and watch on Disney +</h4> 
+                    <button id="video-button" class="btn btn-primary btn-lg">Click Here to Watch!</button>    
+                </section>
+                <section class="blog article1">
+                    
+                    <img src="images/x-menadapt.jpg" style="width: 100%;"  alt="X-men Adapt">
+                    <h4 class="caption">Should the MCU adapt this very famous storyline into a movie?</h4>
+                    <a href="https://gamerant.com/mcu-x-men-movie-adapt-x-men-blue-gold/" class="btn btn-primary btn-lg">Click Here to Watch!</a> 
+                </section>
+                <section class="blog article2">
+                    <img src="images/blueteamgoldteam.jpg" style="width: 100%;" alt="Blue and Gold">
+                    <h4 class="caption">Do you want to know more about the history of the lengendary Blue and Gold Teams of the X-MEN!!</h4>
+                    <a href="https://www.marvel.com/articles/comics/x-men-blue-gold-team-history-explained" class="btn btn-primary btn-lg">Click Here to Watch!</a> 
+                </section>
+            </main>
         </div>
             <footer class="footer  bg-body-tertiary">
                 <div class=" container">
@@ -55,5 +74,11 @@
                 </div>
             </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script>
+            document.getElementById('video-button').addEventListener('click', function(){
+                const videoSection = document.getElementById('video-section');
+                videoSection.innerHTML = '<iframe width="811" height="456" src="https://www.youtube.com/embed/pv3Ss8o9gGQ" title="Marvel Animation&#39;s X-Men &#39;97 | Official Trailer | Disney+" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+            })
+        </script>
     </body>
 </html>
