@@ -22,4 +22,4 @@ c. when directed to the new page, Can scroll through the different items cards. 
 
 Figma Lo Fi and Hi Fi Mockups
 
-https://www.figma.com/files/recents-and-sharing/recently-viewed?fuid=1373713615617591191
+https://www.figma.com/design/RwetdhkvRW2pjMyBCFOCus/Mini-Project-X-MEN?node-id=0-1&t=0cEyl7l5Fvg6pdd4-1
