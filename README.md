@@ -18,3 +18,8 @@ User 3
 a. Goes to the website to look for X-men merch.
 b. Interacts with homepage by clicking on the navbar link labeled shop or the thumbnail.
 c. when directed to the new page, Can scroll through the different items cards. Is able to filter through different items by category.
+
+
+Figma Lo Fi and Hi Fi Mockups
+
+https://www.figma.com/files/recents-and-sharing/recently-viewed?fuid=1373713615617591191
